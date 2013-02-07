@@ -17,6 +17,15 @@
         </div>
       </nav>
     </header>
+    
+    <header id="home-carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <%= render 'layouts/carousel' %>
+      </div>
+      <a class="carousel-control left" href="#home-carousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#home-carousel" data-slide="next">&rsaquo;</a>
+    </header>
+    
     <div id="main" role="main">
       <div class="container">
         <div class="content">
@@ -39,5 +48,11 @@
         </div>
       </div> <!--! end of .container -->
     </div> <!--! end of #main -->
+    <!--! javascript section -->
+    <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+        }); // end document.ready
+      </script>
   </body>
 </html>
