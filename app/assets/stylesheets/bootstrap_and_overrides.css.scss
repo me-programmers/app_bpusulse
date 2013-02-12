@@ -1,3 +1,18 @@
 @import "bootstrap";
 body { padding-top: 40px; }
 @import "bootstrap-responsive";
+
+.nav > li > a:hover { 
+    background-color: #0077B3;
+    text-decoration: none;
+}
+
+.sidebar{
+    border: thin solid #bdbdbd ;
+    border-radius: 6px;
+}
+.sidebar > h5 {
+	background: #999999;
+        color: #FFFFFF;
+	padding: 6px 6px 6px 6px;	
+}
