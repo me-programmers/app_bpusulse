@@ -22,7 +22,7 @@
 
 <p>
   <b>Content:</b>
-  <%= @post.content %>
+  <%= sanitize(@post.content) %>
 </p>
 
 
