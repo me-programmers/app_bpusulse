@@ -26,5 +26,4 @@ gem "better_errors", ">= 0.3.2", :group => :development
 gem "binding_of_caller", ">= 0.6.8", :group => :development
 gem "tinymce-rails", ">= 3.5.8"
 gem "bootstrap-wysihtml5-rails", ">= 0.3.1.17"
-gem "ckeditor", ">= 4.0.2"
-gem "paperclip", ">= 3.4.0"
+gem "ckeditor_rails", "~> 4.0.1.1"

@@ -1,4 +1,5 @@
 AppBpusulsel::Application.routes.draw do
+
   resources :posts
 
 

@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require ckeditor-jquery
 //= require bootstrap
 //= require bootstrap-wysihtml5
 //= require_tree .
