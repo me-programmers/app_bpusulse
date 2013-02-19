@@ -1,4 +1,4 @@
-<h3>Home</h3>
-<% @users.each do |user| %>
-  <p>User: <%=link_to user.name, user %></p>
+<% @content1.each do |f| %>
+  <h4><%= f.title %></h4>
+  <%= sanitize(f.content) %>
 <% end %>

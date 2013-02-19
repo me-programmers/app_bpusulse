@@ -80,4 +80,23 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  def download
+    @post = Post.find(params[:id])
+    filepath = "#{Rails.root}/public" + @post.dokumen.to_s
+    send_file filepath
+    #filepath = @post.dokumen.to_s
+    #terbaca /uploads/post/dokumen/1/bootstrap.zip
+    #filepath = "#{Rails.root}" + @post.dokumen.to_s
+    #terbaca C:/Sites/app_bpusulsel/uploads/post/dokumen/1/bootstrap.zip
+    #filepath = "#{Rails.root}/public/download/DATA CAMAT__edited.zip"
+    #terbaca http://localhost:3000/posts/1/download
+
+    #send_file  Post.dokumen.path,
+    #:filename => Post.dokumen_file_name,
+    #            :type => Post.dokumen_content_type,
+    #:disposition => 'attachment'
+    #flash[:notice] = "Your file has been downloaded"
+    
+  end
 end

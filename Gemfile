@@ -27,3 +27,4 @@ gem "binding_of_caller", ">= 0.6.8", :group => :development
 gem "tinymce-rails", ">= 3.5.8"
 gem "bootstrap-wysihtml5-rails", ">= 0.3.1.17"
 gem "ckeditor_rails", "~> 4.0.1.1"
+gem "carrierwave", "~> 0.8.0"

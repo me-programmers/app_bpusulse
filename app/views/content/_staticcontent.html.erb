@@ -1,0 +1,8 @@
+<%= sanitize(staticcontent.content) %>
+<br />
+<p>Untuk download, silahkan klik di bawah ini</p>
+<% if user_signed_in? %>
+  <h5><%= link_to "Download File", download_post_path(staticcontent) %></h5>
+<% else %>    
+  <h5><%= link_to "Download File", new_user_session_path %></h5>
+<% end %>

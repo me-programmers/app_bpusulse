@@ -10,6 +10,13 @@ body { padding-top: 40px; }
 .sidebar{
     border: thin solid #bdbdbd ;
     border-radius: 6px;
+    box-shadow: 1px 1px 4px 2px #cccccc;
+}
+.contentbar{
+    border: thin solid #bdbdbd ;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 2px #cccccc;
+    padding: 6px 10px 6px 10px;	
 }
 .sidebar > h5 {
 	background: #999999;
