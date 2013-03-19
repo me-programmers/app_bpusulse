@@ -29,8 +29,6 @@ gem "quiet_assets", ">= 1.0.1", :group => :development
 gem "figaro", ">= 0.5.3"
 gem "better_errors", ">= 0.3.2", :group => :development
 gem "binding_of_caller", ">= 0.6.8", :group => :development
-gem "tinymce-rails", ">= 3.5.8"
-gem "bootstrap-wysihtml5-rails", ">= 0.3.1.17"
 gem "ckeditor_rails", "~> 4.0.1.1"
 gem "carrierwave", "~> 0.8.0"
 gem "heroku", "~> 2.35.0"

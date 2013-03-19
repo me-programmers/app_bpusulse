@@ -2,14 +2,24 @@
 <div class="side-photo">
   <%= image_tag("/assets/gub.jpg") %>
 </div>
+<h5>Tugas Dekonsentrasi & Pembantuan</h5>
+<ul class="nav nav-pills nav-stacked">
+  <li><%= link_to image_tag("/assets/arrow.png") + " [Item 1]", "#" %></li>
+  <li><%= link_to image_tag("/assets/arrow.png") + " [Item 2]", "#" %></li>
+</ul>
 <h5>Informasi Kependudukan</h5>
 <ul class="nav nav-pills nav-stacked">
   <li><%= link_to image_tag("/assets/arrow.png") + " Jumlah Penduduk", "#" %></li>
   <li><%= link_to image_tag("/assets/arrow.png") + " Sebaran Penduduk", "#" %></li>
   <li><%= link_to image_tag("/assets/arrow.png") + " Klasifikasi Penduduk", "#" %></li>
 </ul>
-<h5>Informasi Agraria</h5>
+<h5>Link Terkait</h5>
 <ul class="nav nav-pills nav-stacked">
-  <li><%= link_to image_tag("/assets/arrow.png") + " Klasifikasi Agraria", "#" %></li>
+  <li><%= link_to image_tag("/assets/arrow.png") + " APPSI", "http://www.appsi.or.id", :target => '_blank' %></li>
+  <li><%= link_to image_tag("/assets/arrow.png") + " BPN", "http://www.bpn.go.id", :target => '_blank' %></li>
+  <li><%= link_to image_tag("/assets/arrow.png") + " DEPDAGRI", "http://www.kemendagri.go.id", :target => '_blank' %></li>
+  <li><%= link_to image_tag("/assets/arrow.png") + " APDESI", "#" %></li>
+  <li><%= link_to image_tag("/assets/arrow.png") + " APKASI", "http://www.apkasi.or.id", :target => '_blank' %></li>
 </ul>
+
 
