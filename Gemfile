@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gem 'rails', '3.2.11'
+ruby '1.9.3'
+gem 'rails', '3.2.13'
 group :development, :test do
   gem 'sqlite3'
 end
@@ -12,23 +13,22 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 gem 'jquery-rails'
-gem "thin", ">= 1.5.0"
-gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
-gem "database_cleaner", ">= 0.9.1", :group => :test
-gem "email_spec", ">= 1.4.0", :group => :test
-gem "cucumber-rails", ">= 1.3.0", :group => :test, :require => false
-gem "launchy", ">= 2.1.2", :group => :test
-gem "capybara", ">= 2.0.2", :group => :test
-gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
-gem "bootstrap-sass", ">= 2.2.2.0"
-gem "devise", ">= 2.2.3"
-gem "cancan", ">= 1.6.8"
-gem "rolify", ">= 3.2.0"
-gem "simple_form", ">= 2.0.4"
-gem "quiet_assets", ">= 1.0.1", :group => :development
-gem "figaro", ">= 0.5.3"
-gem "better_errors", ">= 0.3.2", :group => :development
-gem "binding_of_caller", ">= 0.6.8", :group => :development
-gem "ckeditor_rails", "~> 4.0.1.1"
-gem "carrierwave", "~> 0.8.0"
-gem "heroku", "~> 2.35.0"
+gem "thin"
+gem "rspec-rails", :group => [:development, :test]
+gem "database_cleaner", :group => :test
+gem "email_spec", :group => :test
+gem "cucumber-rails", :group => :test, :require => false
+gem "launchy", :group => :test
+gem "capybara", :group => :test
+gem "factory_girl_rails", :group => [:development, :test]
+gem "bootstrap-sass", ">= 2.3.2.2"
+gem "devise"
+gem "cancan"
+gem "rolify"
+gem "simple_form"
+gem "quiet_assets", :group => :development
+gem "figaro"
+gem "better_errors", :group => :development
+gem "binding_of_caller", :group => :development
+gem "ckeditor_rails"
+gem "carrierwave"

@@ -2,6 +2,19 @@
 body { padding-top: 40px; }
 @import "bootstrap-responsive";
 
+.navbar {
+    margin-bottom: 15px;
+}
+
+.container {
+        margin: 0 auto;
+        max-width: 1170px;
+}
+
+h7 { 
+    font-size: 8px;
+}
+
 .nav > li > a:hover { 
     background-color: #0077B3;
     text-decoration: none;
@@ -18,9 +31,9 @@ body { padding-top: 40px; }
     box-shadow: 1px 1px 4px 2px #cccccc;
     padding: 6px 10px 6px 10px;	
 }
-.sidebar > h5 {
+.sidebar > h6 {
 	background: #999999;
-        color: #FFFFFF;
+    color: #FFFFFF;
 	padding: 6px 6px 6px 6px;	
 }
 
